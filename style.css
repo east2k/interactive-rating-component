@@ -155,8 +155,8 @@
     display: none;
 }
 
-.rating-wrapper.rating-state.active {
-    display: block;
+.rating-wrapper.thank-you-state.active {
+    display: flex;
 }
 
 .rating-container.thank-you-state {
