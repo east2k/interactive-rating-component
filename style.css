@@ -187,3 +187,19 @@
     border-radius: 25px;
     padding: 5px;
 }
+
+@media only screen and (max-width: 375px) {
+    .rating-wrapper {
+        /* width: 285px; */
+    }
+
+    .rating-status {
+        font-size: calc(var(--regular-font-size) + 2px);
+        line-height: 23px;
+        height: 30px;
+    }
+
+    .rating-body p {
+        font-size: calc(var(--regular-font-size) + 2px);
+    }
+}
