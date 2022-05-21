@@ -46,6 +46,10 @@
     width: 325px;
     height: 325px;
 }
+.rating-wrapper.rating-state{
+    display: none;
+}
+
 
 .rating-container {
     width: 100%;
@@ -140,4 +144,19 @@
 .rating-submit:active {
     background-color: var(--white);
     color: var(--primary-color);
+}
+
+.rating-wrapper.thank-you-state{
+    display: block;
+}
+
+.rating-container.thank-you-state{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating-body.thank-you-state{
+    text-align: center;
 }
