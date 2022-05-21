@@ -51,6 +51,10 @@
     display: none;
 }
 
+.rating-wrapper.rating-state.active {
+    display: block;
+}
+
 
 .rating-container {
     width: 100%;
@@ -148,6 +152,10 @@
 }
 
 .rating-wrapper.thank-you-state {
+    display: none;
+}
+
+.rating-wrapper.rating-state.active {
     display: block;
 }
 
@@ -189,10 +197,6 @@
 }
 
 @media only screen and (max-width: 375px) {
-    .rating-wrapper {
-        /* width: 285px; */
-    }
-
     .rating-status {
         font-size: calc(var(--regular-font-size) + 2px);
         line-height: 23px;
