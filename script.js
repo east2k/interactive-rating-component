@@ -1,9 +1,12 @@
 const optionList = document.querySelector(".rating-list ul").getElementsByTagName("li");
 const submitButton = document.querySelector('.rating-submit');
 
-let selectedOption
-for (let i = 0; i < optionList.length; i++) {
-    optionList[i].addEventListener('click', () => {
-        console.log(optionList[i].innerHTML);
+let selectedOption;
+Array.from(optionList).forEach((option) => {
+    option.addEventListener('click', () => {
+        let activeElem = document.querySelector(".selected");
+        if(activeElem !== null) activeElem.classList.remove("selected");
+        option.classList.add("selected");
+        selectedOption = option.innerHTML;
     });
-}
+});

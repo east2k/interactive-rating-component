@@ -128,7 +128,7 @@
     background-color: var(--light-grey);
 }
 
-.rating-list ul li:active {
+.rating-list ul li.selected {
     color: var(--white);
     background-color: var(--primary-color);
 }
