@@ -175,3 +175,15 @@
     width: auto;
     height: 95px;
 }
+
+.rating-status {
+    background-color: var(--light-dark-blue);
+    color: var(--primary-color);
+    font-size: var(--regular-font-size);
+    height: 25px;
+    width: 160px;
+    text-align: center;
+    margin-bottom: var(--section-margin-separator);
+    border-radius: 25px;
+    padding: 5px;
+}
